@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct ObraDeArte{
+struct ObraDeArte: Identifiable{
+    let id = UUID()
     let titulo: String
     let artista: String
     let ano: Int
